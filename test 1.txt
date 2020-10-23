@@ -1,3 +1,6 @@
-1st commit
-2nd
-3rd
+
+while True:
+  valor = print("how many commits you wanna do ?")
+  [print( str(i) + "st commit" ) for i in range(valor)] 
+
+
